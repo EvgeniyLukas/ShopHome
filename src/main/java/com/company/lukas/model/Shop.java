@@ -5,8 +5,10 @@ import java.util.Set;
 public class Shop extends BaseEntity {
     String name;
     String type;
-
     Set<Department> departments;
+
+    public Shop() {
+    }
 
     public Shop(Long id) {
         super(id);
